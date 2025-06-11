@@ -1,3 +1,5 @@
+import os
+import gdown
 import streamlit as st
 import numpy as np
 from PIL import Image
@@ -5,14 +7,30 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
 
-# Load model
+MODEL_PATH = 'tb_detection_final_model.h5'
+GDRIVE_FILE_ID = '1t9VFSjbLsGtkf5iBEnkc9c_njTN7-K9d'
+
+
 @st.cache_resource
 def load_tb_model():
+    if not os.path.exists(MODEL_PATH):
+        with st.spinner("Downloading model..."):
+            url = f"https://drive.google.com/uc?id={GDRIVE_FILE_ID}"
+            gdown.download(url, MODEL_PATH, quiet=False)
     try:
-        model = load_model('tb_detection_final_model.h5')
-        return model
-    except:
+        return load_model(MODEL_PATH)
+    except Exception as e:
+        st.error(f"Error loading model: {e}")
         return None
+
+# Load model
+# @st.cache_resource
+# def load_tb_model():
+#     try:
+#         model = load_model('tb_detection_final_model.h5')
+#         return model
+#     except:
+#         return None
 
 def predict_tb(image, model):
     # Preprocess image
