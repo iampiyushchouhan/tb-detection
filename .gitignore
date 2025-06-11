@@ -1,0 +1,37 @@
+# Virtual environment
+tb_env/
+venv/
+env/
+
+# Model files (too large for GitHub)
+*.h5
+*.hdf5
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Dataset (too large for GitHub)
+tb_dataset/
+data/
+dataset/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Training outputs
+training_results.png
+confusion_matrix.png
