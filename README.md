@@ -8,6 +8,7 @@ A deep learning project that detects tuberculosis (TB) from chest X-ray images u
 [![Project Demo](https://img.shields.io/badge/📹_Watch_Demo-Click_Here-blue?style=for-the-badge)](https://github.com/iampiyushchouhan/tb-detection/blob/main/Project%20Deploy%20Preview.webm)
 
 **[📺 View Full Demo Video](https://github.com/iampiyushchouhan/tb-detection/blob/main/Project%20Deploy%20Preview.webm)**
+> **💡 Tip:** Download the video file to view it locally if GitHub's web player doesn't work optimally in your browser.
 
 This comprehensive video walkthrough demonstrates:
 
@@ -21,7 +22,7 @@ This comprehensive video walkthrough demonstrates:
 ### Quick Preview
 The demo showcases the complete workflow from image upload to TB detection results, highlighting the model's accuracy and the intuitive user interface designed for healthcare professionals and researchers.
 
-> **💡 Tip:** Download the video file to view it locally if GitHub's web player doesn't work optimally in your browser.
+
 
 ---
 
