@@ -51,8 +51,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Piyush Chouhan
 
 GitHub: @iampiyushchouhan
-Email: iampiyushchouhan@users.noreply.github.com.
-
+Email: iampiyushchouhan@users.noreply.github.com
 
 🙏 Acknowledgments
 
