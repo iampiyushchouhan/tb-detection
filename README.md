@@ -25,18 +25,30 @@ The demo showcases the complete workflow from image upload to TB detection resul
 
 ---
 
-## 🌐 Live Application
-**Demo Link:** [TB Detection System](https://tb-detection-5.onrender.com)
+# **🌐 Live Application**
 
-> ⚠️ **First-time load notice:** Due to free tier hosting limitations, the initial request may take up to 60 seconds to respond if the service has been idle. Please be patient during the first load.
+### 🚀 Try the TB Detection System( Deploy Link)
+**[🔗 Launch Application](https://tb-detection-5.onrender.com)**
+> ⚠️ **Important Notice:** This application is hosted on Render's free tier. If you're the first visitor after a period of inactivity, please allow 30-60 seconds for the service to wake up. Once active, the application will respond quickly for all subsequent users.
 
+Experience the TB Detection System live in your browser! This web application provides:
 
+# **🔧 How to Use:**
+1. Click the link above to access the application
+2. Upload a chest X-ray image (JPG, PNG, or other supported formats)
+3. Wait for the AI model to process the image
+4. View the results: Normal or TB detection with confidence score
 
+# **✨ Features:**
+- **📤 Easy Upload** - Drag and drop or browse to upload chest X-ray images
+- **🤖 AI-Powered Analysis** - Advanced deep learning model for TB detection
+- **⚡ Real-time Results** - Get predictions within seconds
+- **📊 Confidence Scores** - View prediction confidence levels
+- **🎨 User-Friendly Interface** - Clean, intuitive Streamlit-based design
+- **📱 Responsive Design** - Works on desktop, tablet, and mobile devices
 
+## **🌍 Accessibility:** The application is publicly accessible and requires no registration or API keys.
 
-
-# ⚠️**Important Note**
-**Please Note:** This app is deployed on Render's free tier, which means it goes to sleep after 15 minutes of inactivity. If you're the first visitor after a period of inactivity, please allow 30-60 seconds for the service to wake up. Once active, the application will respond normally.
 
 
 ## 🎯 Project Overview
