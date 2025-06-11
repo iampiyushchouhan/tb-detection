@@ -50,8 +50,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 👨‍💻 Author
 Piyush Chouhan
 
-GitHub: [text](https://github.com/iampiyushchouhan)
-Email: chpiyush2005@gmail.com
+GitHub: @iampiyushchouhan
+Email: 207532079+iampiyushchouhan@users.noreply.github.com.
 
 
 🙏 Acknowledgments
