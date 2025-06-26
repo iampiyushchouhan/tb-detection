@@ -32,7 +32,7 @@ The demo showcases the complete workflow from image upload to TB detection resul
 > ⚠️ **Important Notice:** This application is hosted on Render's free tier. If you're the first visitor after a period of inactivity, please allow 30-60 seconds for the service to wake up. Once active, the application will respond quickly for all subsequent users.
 
 ➡️(Streamlit)
-**[🔗 Launch Application](https://tb-detection-x-ray.streamlit.app/)**
+**[🔗 Launch Application](https://tb-detection-x-ray.streamlit.app/)** (prefer this)
 
 ➡️(Render)
 **[🔗 Launch Application](https://tb-detection-5.onrender.com)**  **(⚠️please allow 30-60 seconds for the service to wake up)**
